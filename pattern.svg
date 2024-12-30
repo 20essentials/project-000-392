@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256" width="32px" height="32px">
+  <style type="text/css">
+    @keyframes ld-pulse
+{
+  0% {
+    animation-timing-function: cubic-bezier(0.0413,0.3905,0.5086,0.6902);
+    transform: scale(1);
+  }
+  24.3% {
+    animation-timing-function: cubic-bezier(0.2248,0.6332,0.5246,1);
+    transform: scale(0.8458);
+  }
+  55% {
+    animation-timing-function: cubic-bezier(0.3036,0.3393,0.655,0.6144);
+    transform: scale(0.8022);
+  }
+  70.2% {
+    animation-timing-function: cubic-bezier(0.4464,0.2728,0.5562,0.7288);
+    transform: scale(0.8294);
+  }
+  82.3% {
+    animation-timing-function: cubic-bezier(0.6826,0.1845,1,0.7358);
+    transform: scale(0.869);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.ld.ld-pulse {
+  animation: ld-pulse 0.5s infinite;
+}
+    @keyframes ld-move {
+      0% { transform: translate(0,0) }
+      100% { transform: translate(256px,0) }
+    }
+  </style>
+  <defs><g id="id-0.6220623217239136">
+    
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+
+<polyline fill="none" stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="  0,96 0,32 64,32 64,96 128,96 128,32 192,32 192,96 256,96 "/>
+<polyline fill="none" stroke="#777777" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="  0,160 0,224 64,224 64,160 128,160 128,224 192,224 192,160 256,160 "/>
+
+
+  </g></defs>
+  <rect x="0" y="0" transform="matrix(-8.980568e-11 1 -1 -8.980568e-11 256 1.724291e-08)" fill="#F1F2F3" width="256" height="256"/>
+  <g>
+    <use xlink:href="#id-0.6220623217239136" x="-256" y="-256"/><use xlink:href="#id-0.6220623217239136" x="0" y="-256"/><use xlink:href="#id-0.6220623217239136" x="256" y="-256"/><use xlink:href="#id-0.6220623217239136" x="-256" y="0"/><use xlink:href="#id-0.6220623217239136" x="0" y="0"/><use xlink:href="#id-0.6220623217239136" x="256" y="0"/><use xlink:href="#id-0.6220623217239136" x="-256" y="256"/><use xlink:href="#id-0.6220623217239136" x="0" y="256"/><use xlink:href="#id-0.6220623217239136" x="256" y="256"/>
+    <animateTransform attributeName="transform" type="translate" dur="4s" repeatCount="indefinite" keyTimes="0;1" values="0;256"/>
+  </g>
+</svg>
